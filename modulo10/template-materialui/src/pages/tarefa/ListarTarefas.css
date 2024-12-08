@@ -1,0 +1,14 @@
+/* Estilizando o cabeçalho da tabela */
+.MuiTableCell-head {
+    background-color: #2b4cef;  /* Cor de fundo escura */
+
+  }
+
+.MuiTableRow-root:nth-child(even) {
+    background-color: #e0f7fa;  /* Azul claro para linhas pares */
+  }
+  
+  .MuiTableRow-root:nth-child(odd) {
+    background-color: #ffffff;  /* Branco para linhas ímpares */
+  }
+

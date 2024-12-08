@@ -14,6 +14,8 @@ import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Modal from '@mui/material/Modal';
+import './ListarTarefas.css';
+
 
 import CriarTarefa from './CriarTarefa';
 import EditarTarefa from './EditarTarefa';
@@ -89,7 +91,7 @@ const ListarTarefa = () => {
           subheader="Listagem de Tarefas"
         /> 
         <CardContent>
-            <TableContainer component={Paper}>
+            <TableContainer component={Paper} >
             <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                 <TableHead>
                 <TableRow>
